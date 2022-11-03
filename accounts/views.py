@@ -1,16 +1,23 @@
 from django.shortcuts import render, redirect, reverse
 from django.contrib.auth import login, authenticate
 from django.contrib.auth.forms import UserCreationForm
+from django.views.generic.edit import CreateView
+from django.contrib.auth.views import PasswordChangeView
+from django.contrib.auth.mixins import LoginRequiredMixin
 # Decoreator to ensure user is logged in
 from django.contrib.auth.decorators import login_required
 from .models import Profile
 from django.contrib import messages
+from django.contrib.auth.views import LoginView
+from django.contrib.auth import views as auth_views
 
 
 # Views
 
 
 def register(request):
+    if request.user:
+        return redirect('home')
     if request.method == 'POST':
         form = UserCreationForm(request.POST)
         if form.is_valid():
@@ -23,6 +30,11 @@ def register(request):
     else:
         form = UserCreationForm()
     return render(request, 'registration/register.html', {'form': form})
+
+
+class MyPassword(LoginRequiredMixin, PasswordChangeView):
+    template_name = 'registration/change-password.html'
+    success_url = '/dashboard/'
 
 
 # Get form for user update
@@ -43,3 +55,4 @@ def apply_user_update(request):
                          'Your info has been saved')
 
     return redirect('update_user')
+
