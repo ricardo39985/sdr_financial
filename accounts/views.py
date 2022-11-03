@@ -16,7 +16,7 @@ from django.contrib.auth import views as auth_views
 
 
 def register(request):
-    if request.user:
+    if request.user.is_authenticated:
         return redirect('home')
     if request.method == 'POST':
         form = UserCreationForm(request.POST)
