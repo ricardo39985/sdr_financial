@@ -32,6 +32,9 @@ ALLOWED_HOSTS = []
 
 # Application definition
 
+SITE_ID = 2
+SOCIALACCOUNT_LOGOUT_ON_GET = True
+
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -50,6 +53,9 @@ INSTALLED_APPS = [
     "django.contrib.humanize",
 
 ]
+
+
+# SOCIALACCOUNT_LOGOUT_ON_GET = True
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
