@@ -34,7 +34,7 @@ def register(request):
 
 class MyPassword(LoginRequiredMixin, PasswordChangeView):
     template_name = 'registration/change-password.html'
-    success_url = '/dashboard/'
+    success_url = '/dashboard/0'
 
 
 # Get form for user update

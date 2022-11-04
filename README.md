@@ -1,5 +1,5 @@
 <h1 align="center">Welcome to RIDANSO 👋</h1>
-<p align="center"><small >A full stack banking portal</small></p>
+<p align="center"><small >A full stack banking portal. Built with django, allows for user to sign up and record financial transactions</small></p>
 <p>
 <a href="https://www.djangoproject.com/">
     <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white" />
