@@ -26,6 +26,7 @@
 <br>
 
 ### ✨ [Demo](https://sdrbanking.herokuapp.com/)
+### ✨ [Trello](https://trello.com/invite/b/UQjVAzcG/ATTI7848a83c1b9ccf516eeae9db05a6b42358B6B402/banking-app)
 
 <br>
 
