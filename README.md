@@ -100,7 +100,7 @@ Give a ⭐️ if this project helped you!
 
 ## 📝 License
 
-Copyright © 2022 [Ricardo Persaud](https://github.com/ricardo39985).<br />
+Copyright © 2022 [Sammy Fares, Daniel Rodrigues and Ricardo Persaud](https://github.com/ricardo39985).<br />
 This project is [MIT](https://opensource.org/licenses/MIT) licensed.
 
 ---
