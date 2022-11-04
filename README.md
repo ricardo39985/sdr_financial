@@ -33,7 +33,7 @@
 
 :heavy_check_mark: Custom Routing\
 :heavy_check_mark: Full Crud Functionality\
-:heavy_check_mark: MVC\
+:heavy_check_mark: MVT\
 :heavy_check_mark: Data persistence in **PostreSQL**.\
 :heavy_check_mark: Google sign in using **Allauth**\
 :heavy_check_mark: Authentication using **Django**'s built-in authentication\
