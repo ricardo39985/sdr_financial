@@ -79,20 +79,11 @@
             </div>
         </form>
     </div>
-    
+
 </section>
 <section class="table">
     <table class="transaction-table" border="0" cellspacing="0">
     {% for transaction in transactions %}
-        {% comment %}
-        <tr>
-            <td>
-                Ill be adding the table later on
-                <li>hello</li>
-            </td>
-        </tr>
-        {% endcomment %}
-        
             <thead>
                 <tr>
                     <th>Name</th>
@@ -100,7 +91,7 @@
                     <th>Item Price</th>
                 </tr>
             </thead>
-        
+
             <tbody>
                 <tr>
                     <td>Alvin</td>
@@ -119,7 +110,7 @@
             </tr>
             </tbody>
         </table>
-</section>  
+</section>
 {% endfor %}
 {% endif %}
 {% endblock content %}
