@@ -1,9 +1,6 @@
 <h1 align="center">Welcome to RIDANSO 👋</h1>
 <p align="center"><small >A full stack banking portal</small></p>
 <p>
-  <a href="https://www.linkedin.com/in/ricardo-persaud/">
-    <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>&nbsp;&nbsp;
 <a href="https://www.djangoproject.com/">
     <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white" />
   </a>&nbsp;&nbsp;
